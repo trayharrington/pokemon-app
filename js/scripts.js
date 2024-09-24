@@ -1,31 +1,31 @@
 // Create an array to store pokemon data
-pokemonList = [];
+let pokemonList = [];
 
 // Add pokemon to the created array
 pokemonList.push({
-  name: Machop,
-  type: [fighting],
+  name: 'Machop',
+  types: ['fighting'],
   height: 0.8,
   weight: 19.5
 })
 
 pokemonList.push({
-  name: Litwick,
-  type: [fire, ghost],
+  name: 'Litwick',
+  types: ['fire', 'ghost'],
   height: 0.3,
   weight: 3.1
 })
 
 pokemonList.push({
-  name: Houndour,
-  type: [dark, fire],
+  name: 'Houndour',
+  types: ['dark', 'fire'],
   height: 0.6,
   weight: 10.8 
 })
 
 pokemonList.push({
-  name: Croagunk,
-  type: [poison, fighting],
+  name: 'Croagunk',
+  types: ['poison', 'fighting'],
   height: 0.7,
   weight: 23
 })
