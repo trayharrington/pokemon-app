@@ -29,3 +29,12 @@ pokemonList.push({
   height: 0.7,
   weight: 23
 })
+
+// Iterate through the pokemonList array and print each Pokemon's name and height
+for (let i=0; i < pokemonList.length; i++){
+  statMessage = (`${pokemonList[i].name} (height: ${pokemonList[i].height}m)`);
+  if (pokemonList[i].height > 0.7){
+    statMessage = statMessage + " - Wow, that's big!"
+  }
+  document.write(statMessage + "<br><br>")
+}
